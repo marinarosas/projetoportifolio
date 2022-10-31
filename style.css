@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 55px;
+}
+
+.nav-group-logo{
+    font-family: 'DM Sans', sans-serif;
+    color: #cd23b3;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-group-menu{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    width:610px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav-group-menu a:hover{
+    background-color: lightgray; 
+}
+
+.nav-group-menu a{
+    padding: 4px 8px;
+}
+
+.nav-group-icons{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-home{
+    min-height: calc(100vh - 55px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-home-item{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: #42446e;
+    font-size: 26px;
+}
+
+.myname{
+     background: -webkit-linear-gradient(#13B0F5, #E70FAA);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.profile-img{
+    border-radius: 50%;
+}

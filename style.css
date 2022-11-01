@@ -1,3 +1,4 @@
+/* ================= GLOBAL ================= */
 *{
     padding: 0;
     margin: 0;
@@ -13,6 +14,8 @@ a{
     width: 1200px;
     margin: 0 auto;
 }
+
+/* ================= HEADER ================= */
 
 header{
     color: #666666;
@@ -59,6 +62,8 @@ header{
     align-items: center;
 }
 
+/* ================= HOME ================= */
+
 .section-home{
     min-height: calc(100vh - 55px);
     display: flex;
@@ -73,6 +78,7 @@ header{
     font-family: 'Poppins', sans-serif;
     color: #42446e;
     font-size: 26px;
+    align-items: center;
 }
 
 .myname{
@@ -83,4 +89,161 @@ header{
 
 .profile-img{
     border-radius: 50%;
+    padding: 11px;
+    background: linear-gradient( #E70FAA, #00C0FD);
+    -webkit-text-fill-color: transparent;
 }
+
+/* ================= ABOUT ================= */
+
+.main-about{
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-about h1{
+    font-size: 40px;
+    color: #42446E;
+    margin: 32px 0;
+}
+
+.section-about-text{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 38px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #666666;    
+}
+
+.section-about{
+    padding-bottom: 38px;
+}
+
+.description-about{
+    color: #666666;
+    width: 710px;
+    height: 75px;
+}
+
+.type-time-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.type-time-about span{
+    padding: 6px 20px;
+    background-color: #D7FFE0;
+    color: green;
+    width: 120px;
+    height: 34px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 3px rgba(107, 107, 107, 0.284);
+}
+
+.details-about{
+    display: flex;
+    padding-bottom: 24px;
+}
+
+.details-about span{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.work-place{
+    padding-right: 16px;
+}
+
+.calendar-about{
+    margin-left: auto;
+}
+
+.line-about{
+    border-color: #EBEAED;
+}
+
+/* ================= TECH STACK ================= */
+
+.title-tech h1{
+    font-size: 40px;
+    color: #42446E;
+    padding-bottom: 32px;
+    font-weight: 700;
+}
+
+.section-tech-stack{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #666666;    
+    margin-top: 150px;
+}
+
+.icons-tech{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-stack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-tech-img{
+    width: 93px;
+    height: 105px;
+}
+
+/* ================= PROJECTS ================= */
+
+.title-projects h1{
+    font-size: 40px;
+    color: #42446E;
+    padding-bottom: 32px;
+    font-weight: 700;
+}
+
+.section-projects{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #666666;    
+    margin-top: 150px;
+}
+
+.card-projects{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

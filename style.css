@@ -99,6 +99,7 @@ header{
     padding: 11px;
     height: 350px;
     width: 350px;
+    filter: grayscale(100%)
 }
 
 /* ================= ABOUT ================= */

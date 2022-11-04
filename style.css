@@ -87,11 +87,18 @@ header{
      -webkit-text-fill-color: transparent;
 }
 
+.image-profile{
+    border-radius: 50%;
+    background: linear-gradient( #E70FAA, #00C0FD);
+    -webkit-text-fill-color: transparent;
+    height: 350px;
+    width: 350px;
+}
 .profile-img{
     border-radius: 50%;
     padding: 11px;
-    background: linear-gradient( #E70FAA, #00C0FD);
-    -webkit-text-fill-color: transparent;
+    height: 350px;
+    width: 350px;
 }
 
 /* ================= ABOUT ================= */
@@ -122,6 +129,9 @@ header{
 
 .section-about{
     padding-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .description-about{
@@ -140,7 +150,7 @@ header{
 }
 
 .type-time-about span{
-    padding: 6px 20px;
+    padding: 6px 21px;
     background-color: #D7FFE0;
     color: green;
     width: 120px;
@@ -148,6 +158,7 @@ header{
     border: none;
     border-radius: 20px;
     box-shadow: 0px 4px 3px rgba(107, 107, 107, 0.284);
+    
 }
 
 .details-about{
@@ -228,7 +239,7 @@ header{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    color: #666666;    
+    color: #000000;    
     margin-top: 150px;
 }
 
@@ -271,6 +282,19 @@ header{
     padding-left: 28px;
     display: flex;
     gap:8px;
+    color: #42446e;
+}
+
+.project-link{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.github-link{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
 }
 
 .link-project{
@@ -342,7 +366,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 150px;
-    
+
 }
 
 .text-by-me{

@@ -239,6 +239,10 @@ header{
     font-weight: 700;
 }
 
+.title-projects h3{
+    color: #666666;  
+}
+
 .section-projects{
     display: flex;
     flex-direction: column;
@@ -287,6 +291,7 @@ header{
 .tech-project-info{
     padding-left: 28px;
     display: flex;
+    width: 40vh;
     gap:8px;
     color: #42446e;
 }

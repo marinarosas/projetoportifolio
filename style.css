@@ -342,6 +342,9 @@ header{
      -webkit-text-fill-color: transparent;
 }
 
+.telefone-contact{
+    cursor: pointer;
+}
 
 .section-contact-bottom{
     display: flex;

@@ -158,6 +158,9 @@ header{
 .type-time-about span{
     padding: 6px 21px;
     background-color: #D7FFE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: green;
     width: 120px;
     height: 34px;
@@ -165,6 +168,20 @@ header{
     border-radius: 20px;
     box-shadow: 0px 4px 3px rgba(107, 107, 107, 0.284);
     
+}
+
+.type-lenguage{
+    padding: 6px 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D7FFE0;
+    color: green;
+    min-width: 150px;
+    height: 34px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 3px rgba(107, 107, 107, 0.284);
 }
 
 .details-about{

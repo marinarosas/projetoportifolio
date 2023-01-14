@@ -213,7 +213,17 @@ header{
 }
 
 .icons-tech{
+    /* border: 2px solid red; */
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    
+
+}
+
+.icon-line-block{
+    /* border: 2px solid yellow; */
     display: flex;
     justify-content: space-between;
 }
@@ -226,8 +236,8 @@ header{
 }
 
 .icon-tech-img{
-    width: 93px;
     height: 105px;
+    object-fit: cover;
 }
 
 /* ================= PROJECTS ================= */

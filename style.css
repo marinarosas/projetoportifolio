@@ -274,9 +274,9 @@ header{
 }
 
 .img-project{
-    width: 375px;
     height: 260px;
     border-radius: 16px 16px 0 0;
+    object-fit: cover;
 }
 
 .card-title{
@@ -294,6 +294,11 @@ header{
     width: 40vh;
     gap:8px;
     color: #42446e;
+}
+
+.tech-stack-title{
+    /* border: 2px solid blue; */
+    min-width: 5vw;
 }
 
 .project-link{

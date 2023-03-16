@@ -298,12 +298,27 @@ header{
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.video-div{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 .img-project{
+    width:fit-content;
     height: 260px;
     border-radius: 16px 16px 0 0;
-    object-fit: cover;
 }
 
 .card-title{
